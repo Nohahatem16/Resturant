@@ -1,0 +1,156 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "segoe ui light";
+    height: 3000px;
+}
+.home 
+{
+    height: 95vh;
+    overflow: hidden;
+    background-image: url(../images/shutterstock_277750193.jpg);
+    background-size: 100% 100%;
+}
+.home .caption p{
+    font-size: 230%;
+    font-family: 'Dancing Script', cursive;
+}
+.home .caption
+{
+    
+    width: 50%;
+    text-align: center;
+    margin: 100px auto 0;
+    color: white;
+    padding: 20px;
+}
+.home .caption .btns a{
+    text-align: center;
+    padding: 15px 28px;
+    background-color: white;
+    color: black;
+    border: none;
+    text-decoration: none;
+    margin: 0 3px;
+}
+.home .caption .btns
+{
+    padding-top: 30px;
+}
+.home .caption .btns .btn-one
+{
+    background-color: #c1ab84;
+}
+.nav 
+{
+    background-color: rgba(0, 0, 0,0.5);
+    padding: 5px;
+    overflow: hidden;
+}
+.nav .logo
+{
+    width: 20%;
+    float: left;
+}
+.nav .logo img
+{
+    float: left;
+    width: 50%;
+}
+.nav .list  
+{
+    width: 80%;
+    float: left;
+    color: white;
+    
+}
+.nav .list ul li 
+{
+    float:right;
+    margin: 10px 20px;
+
+}
+.nav .list ul
+{
+    list-style-type: none;
+    font-size: 20px;
+  
+}
+.discover
+{
+
+    overflow: hidden;
+}
+.discover .chef
+{
+    width: 40%;
+    float: left;
+}
+.discover .chef img
+{
+    width: 100%;
+}
+.discover .discover-chef 
+{
+    padding: 198px 0px;
+    width: 60%;
+    float: left;
+    text-align: center;
+}
+span
+{
+    color: #f2ce08;
+    font-weight: 400;
+    font-family: 'Dancing Script', cursive;
+    font-size: 28px;
+}
+.discover p
+{
+    color: #868686;
+    padding: 40px;
+    font-size: 18px;
+}
+.discover a{
+    background-color: transparent;
+    color: black;
+    border: 2px solid black;
+    text-decoration: none;
+    padding: 10px 15px;
+}
+.out-door
+{
+    background-image: url(../images/bgs.jpg);
+    background-size: 100% 100%;
+    height: 350px;
+    background-attachment: fixed;
+}
+.items
+{
+    overflow: hidden;
+    margin: 50px 0;
+}
+.items .item
+{
+    width: 25%;
+    text-align: center;
+    float: left;
+}
+.items .item img 
+{
+    border-radius: 50%;
+}
+.brdr
+{
+    background-color: #ccc;
+    height: 2px;
+    width: 40%;
+    margin: 20px auto ;
+}
+.items .item p 
+{
+    color: #868686;
+}
